@@ -1,0 +1,134 @@
+/* Prevent scrolling */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Center the container */
+#outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+}
+
+/* Style the signup container */
+#signupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin: 100px 0px;
+}
+
+#header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00AEEF;
+}
+
+#subtitle {
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.input:focus {
+  border-color: #00AEEF;
+  outline: none;
+}
+
+.button {
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00AEEF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #007bb5;
+}
+
+#error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.loginText {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.loginLink {
+  color: #00AEEF;
+  text-decoration: none;
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+}
+
+.fileUpload {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.uploadButton {
+  padding: 8px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bb5;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.uploadButton:hover {
+  background-color: #005a7f;
+}
+
+.filePath {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #666;
+}
